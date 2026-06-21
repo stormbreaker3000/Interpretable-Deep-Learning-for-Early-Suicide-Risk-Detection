@@ -110,7 +110,7 @@ All pairwise differences crossing the Transformer boundary are statistically sig
 
 ### Prerequisites
 
-- Python 3.10+
+- **Python 3.10+** — activate the correct environment before running `setup.sh` (pyenv, conda, and system Python all work).
 - A Kaggle account with an API token (`~/.kaggle/kaggle.json`)  
   — or set `KAGGLE_USERNAME` / `KAGGLE_KEY` in a `.env` file at the project root
 - A GPU is recommended for Steps 6–9 (LoRA training takes ~30 min on a single GPU). The pipeline auto-selects the best available device: **CUDA > MPS > CPU** — no code changes needed regardless of your hardware
@@ -120,9 +120,20 @@ All pairwise differences crossing the Transformer boundary are statistically sig
 ### Step 0 — Clone and bootstrap
 
 ```bash
-git clone https://github.com/stormbreaker3000/Suicide-Detection-Using-Social-Media-Impressions.git
-cd Suicide-Detection-Using-Social-Media-Impressions
+git clone https://github.com/stormbreaker3000/Interpretable-Deep-Learning-for-Early-Suicide-Risk-Detection.git
+cd Interpretable-Deep-Learning-for-Early-Suicide-Risk-Detection
+```
 
+Create a `.env` file in the project root with your Kaggle credentials (required for the dataset download):
+
+```
+KAGGLE_USERNAME=your_username
+KAGGLE_KEY=your_api_key
+```
+
+> Get your API key at kaggle.com → Account → Create New API Token. Alternatively place `kaggle.json` at `~/.kaggle/kaggle.json`.
+
+```bash
 bash setup.sh          # creates venv/, installs requirements, downloads dataset
 
 # macOS / Linux
@@ -214,7 +225,7 @@ python lora_sweep.py \
     --epochs 3
 ```
 
-**What it does:** Grid-searches rank r ∈ {2, 4, 8, 16, 32} with α ∈ {1r, 2r, 4r} plus fixed α=16 at every rank. Saves each adapter to `Models/lora_sweep/r{r}_a{alpha}/` and writes aggregated metrics to `sweep_results.json`.
+**What it does:** Grid-searches rank r ∈ {2, 4, 8, 16, 32, 64} with α ∈ {1r, 2r, 4r} plus fixed α=16 at every rank. Saves each adapter to `Models/lora_sweep/r{r}_a{alpha}/` and writes aggregated metrics to `sweep_results.json`.
 
 After the sweep, promote the paper-selected checkpoint (r=8, α=16) to the canonical path used by all downstream steps:
 
