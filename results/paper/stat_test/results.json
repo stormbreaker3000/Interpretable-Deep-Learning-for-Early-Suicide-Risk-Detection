@@ -1,0 +1,254 @@
+{
+  "LR_BoW__vs__LR_TF-IDF": {
+    "contingency_table": {
+      "a": 42554,
+      "b": 659,
+      "c": 1018,
+      "d": 2184
+    },
+    "statistic": 76.42456768038163,
+    "pvalue": 2.287872373331936e-18,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "LR_BoW__vs__Simple_RNN": {
+    "contingency_table": {
+      "a": 31067,
+      "b": 12146,
+      "c": 1735,
+      "d": 1467
+    },
+    "statistic": 7806.937540523017,
+    "pvalue": 0.0,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "LR_BoW__vs__LSTM": {
+    "contingency_table": {
+      "a": 42052,
+      "b": 1161,
+      "c": 1470,
+      "d": 1732
+    },
+    "statistic": 36.05625237552262,
+    "pvalue": 1.917026934703464e-09,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "LR_BoW__vs__BiLSTM": {
+    "contingency_table": {
+      "a": 41943,
+      "b": 1270,
+      "c": 1503,
+      "d": 1699
+    },
+    "statistic": 19.41002524341868,
+    "pvalue": 1.0545204631831203e-05,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "LR_BoW__vs__Attention_BiLSTM": {
+    "contingency_table": {
+      "a": 41966,
+      "b": 1247,
+      "c": 1243,
+      "d": 1959
+    },
+    "statistic": 0.0036144578313253013,
+    "pvalue": 0.9520597733979361,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": false
+  },
+  "LR_BoW__vs__DistilRoBERTa_LoRA": {
+    "contingency_table": {
+      "a": 42246,
+      "b": 967,
+      "c": 2291,
+      "d": 911
+    },
+    "statistic": 537.2403314917127,
+    "pvalue": 7.512688695653362e-119,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "LR_TF-IDF__vs__Simple_RNN": {
+    "contingency_table": {
+      "a": 31414,
+      "b": 12158,
+      "c": 1388,
+      "d": 1455
+    },
+    "statistic": 8561.29935036173,
+    "pvalue": 0.0,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "LR_TF-IDF__vs__LSTM": {
+    "contingency_table": {
+      "a": 42442,
+      "b": 1130,
+      "c": 1080,
+      "d": 1763
+    },
+    "statistic": 1.0864253393665158,
+    "pvalue": 0.29726459741379696,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": false
+  },
+  "LR_TF-IDF__vs__BiLSTM": {
+    "contingency_table": {
+      "a": 42405,
+      "b": 1167,
+      "c": 1041,
+      "d": 1802
+    },
+    "statistic": 7.076539855072464,
+    "pvalue": 0.007809967584802328,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": false
+  },
+  "LR_TF-IDF__vs__Attention_BiLSTM": {
+    "contingency_table": {
+      "a": 42314,
+      "b": 1258,
+      "c": 895,
+      "d": 1948
+    },
+    "statistic": 60.865768694844405,
+    "pvalue": 6.1102113918024344e-15,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "LR_TF-IDF__vs__DistilRoBERTa_LoRA": {
+    "contingency_table": {
+      "a": 42697,
+      "b": 875,
+      "c": 1840,
+      "d": 1003
+    },
+    "statistic": 342.28213627992636,
+    "pvalue": 2.0317334961771993e-76,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "Simple_RNN__vs__LSTM": {
+    "contingency_table": {
+      "a": 31585,
+      "b": 1217,
+      "c": 11937,
+      "d": 1676
+    },
+    "statistic": 8734.754523338908,
+    "pvalue": 0.0,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "Simple_RNN__vs__BiLSTM": {
+    "contingency_table": {
+      "a": 31582,
+      "b": 1220,
+      "c": 11864,
+      "d": 1749
+    },
+    "statistic": 8657.402094160807,
+    "pvalue": 0.0,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "Simple_RNN__vs__Attention_BiLSTM": {
+    "contingency_table": {
+      "a": 31242,
+      "b": 1560,
+      "c": 11967,
+      "d": 1646
+    },
+    "statistic": 8005.088785392179,
+    "pvalue": 0.0,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "Simple_RNN__vs__DistilRoBERTa_LoRA": {
+    "contingency_table": {
+      "a": 31911,
+      "b": 891,
+      "c": 12626,
+      "d": 987
+    },
+    "statistic": 10186.191906488126,
+    "pvalue": 0.0,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "LSTM__vs__BiLSTM": {
+    "contingency_table": {
+      "a": 42761,
+      "b": 761,
+      "c": 685,
+      "d": 2208
+    },
+    "statistic": 3.8900414937759336,
+    "pvalue": 0.04857322350576901,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": false
+  },
+  "LSTM__vs__Attention_BiLSTM": {
+    "contingency_table": {
+      "a": 42441,
+      "b": 1081,
+      "c": 768,
+      "d": 2125
+    },
+    "statistic": 52.64683612763656,
+    "pvalue": 3.9925355264291437e-13,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "LSTM__vs__DistilRoBERTa_LoRA": {
+    "contingency_table": {
+      "a": 42616,
+      "b": 906,
+      "c": 1921,
+      "d": 972
+    },
+    "statistic": 363.705695083127,
+    "pvalue": 4.392288127419473e-81,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "BiLSTM__vs__Attention_BiLSTM": {
+    "contingency_table": {
+      "a": 42367,
+      "b": 1079,
+      "c": 842,
+      "d": 2127
+    },
+    "statistic": 28.993232691306613,
+    "pvalue": 7.26315883288969e-08,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "BiLSTM__vs__DistilRoBERTa_LoRA": {
+    "contingency_table": {
+      "a": 42608,
+      "b": 838,
+      "c": 1929,
+      "d": 1040
+    },
+    "statistic": 429.38200216841346,
+    "pvalue": 2.2151107233818175e-95,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  },
+  "Attention_BiLSTM__vs__DistilRoBERTa_LoRA": {
+    "contingency_table": {
+      "a": 42319,
+      "b": 890,
+      "c": 2218,
+      "d": 988
+    },
+    "statistic": 566.5794723294723,
+    "pvalue": 3.114420724545791e-125,
+    "bonferroni_alpha": 0.002380952380952381,
+    "significant": true
+  }
+}

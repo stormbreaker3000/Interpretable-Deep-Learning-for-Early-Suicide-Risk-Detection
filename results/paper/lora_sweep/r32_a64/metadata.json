@@ -1,0 +1,33 @@
+{
+  "config": {
+    "r": 32,
+    "alpha": 64,
+    "base_model": "distilroberta-base",
+    "target_modules": [
+      "query",
+      "value"
+    ],
+    "lora_dropout": 0.1
+  },
+  "trainable_params": 1181954,
+  "total_params": 83301892,
+  "trainable_pct": 1.4188801378004716,
+  "sweep_train_size": 37131,
+  "test_size": 46415,
+  "metrics": {
+    "accuracy": 0.9598836583001185,
+    "precision": 0.9564213317367318,
+    "recall": 0.9636747533071918,
+    "specificity": 0.9560927266459841,
+    "fnr": 0.03632524669280823,
+    "fpr": 0.0439072733540159,
+    "f1": 0.960034342133505,
+    "auroc": 0.9926415124586424,
+    "auprc": 0.9929240387429517,
+    "ece": 0.009009319546087583,
+    "tp": 22364,
+    "tn": 22189,
+    "fp": 1019,
+    "fn": 843
+  }
+}

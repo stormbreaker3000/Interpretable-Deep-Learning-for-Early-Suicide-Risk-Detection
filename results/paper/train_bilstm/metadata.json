@@ -1,0 +1,52 @@
+{
+  "config": {
+    "dataset": "./Dataset/Suicide_Detection.csv",
+    "models_dir": "./Models",
+    "results_base": "./results",
+    "timestamp": null,
+    "seed": 42,
+    "max_vocab": 20000,
+    "max_len": 128,
+    "embed_dim": 128,
+    "hidden_units": 64,
+    "dropout": 0.3,
+    "epochs": 5,
+    "batch_size": 128,
+    "es_patience": 2,
+    "force_retrain": true
+  },
+  "models": {
+    "BiLSTM": {
+      "accuracy": 0.9360336098244102,
+      "precision": 0.9258121528362229,
+      "recall": 0.9480329211013918,
+      "specificity": 0.9240348155808342,
+      "fnr": 0.05196707889860819,
+      "fpr": 0.07596518441916578,
+      "f1": 0.9367907858040068,
+      "auroc": 0.9819933223695552,
+      "auprc": 0.9800805490901332,
+      "ece": 0.017298922049420674,
+      "tp": 22001,
+      "tn": 21445,
+      "fp": 1763,
+      "fn": 1206
+    },
+    "Attention_BiLSTM": {
+      "accuracy": 0.9349994613810191,
+      "precision": 0.942802000175454,
+      "recall": 0.9261860645494894,
+      "specificity": 0.9438124784557049,
+      "fnr": 0.07381393545051063,
+      "fpr": 0.05618752154429507,
+      "f1": 0.9344201717204652,
+      "auroc": 0.9810679509387413,
+      "auprc": 0.9802016743365749,
+      "ece": 0.02019725584966015,
+      "tp": 21494,
+      "tn": 21904,
+      "fp": 1304,
+      "fn": 1713
+    }
+  }
+}

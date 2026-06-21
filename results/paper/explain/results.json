@@ -1,0 +1,1164 @@
+{
+  "LR (BoW)": {
+    "shap": [
+      {
+        "token": "suicide",
+        "mean_abs_shap": 0.7033533880096366
+      },
+      {
+        "token": "kill",
+        "mean_abs_shap": 0.6921932089605882
+      },
+      {
+        "token": "life",
+        "mean_abs_shap": 0.5471770096427592
+      },
+      {
+        "token": "filler",
+        "mean_abs_shap": 0.5122298392251793
+      },
+      {
+        "token": "anymore",
+        "mean_abs_shap": 0.43626144666441324
+      },
+      {
+        "token": "end",
+        "mean_abs_shap": 0.3410808030685146
+      },
+      {
+        "token": "killing",
+        "mean_abs_shap": 0.2799127825931441
+      },
+      {
+        "token": "want",
+        "mean_abs_shap": 0.270797285905749
+      },
+      {
+        "token": "suicidal",
+        "mean_abs_shap": 0.26129658381347837
+      },
+      {
+        "token": "ready",
+        "mean_abs_shap": 0.25178355159689464
+      },
+      {
+        "token": "probation",
+        "mean_abs_shap": 0.2401015750241659
+      },
+      {
+        "token": "talk",
+        "mean_abs_shap": 0.23836178811011968
+      },
+      {
+        "token": "ativan",
+        "mean_abs_shap": 0.20723316684397075
+      },
+      {
+        "token": "discord",
+        "mean_abs_shap": 0.2032860824330972
+      },
+      {
+        "token": "job",
+        "mean_abs_shap": 0.19531206457866626
+      },
+      {
+        "token": "reddit",
+        "mean_abs_shap": 0.19433055678239128
+      },
+      {
+        "token": "can",
+        "mean_abs_shap": 0.18994910825936462
+      },
+      {
+        "token": "pain",
+        "mean_abs_shap": 0.18430520191098684
+      },
+      {
+        "token": "school",
+        "mean_abs_shap": 0.17607966890188392
+      },
+      {
+        "token": "helpi",
+        "mean_abs_shap": 0.17545501183731443
+      }
+    ],
+    "lime": [
+      {
+        "feature": "disability",
+        "mean_abs_weight": 0.1760616187361732
+      },
+      {
+        "feature": "ok",
+        "mean_abs_weight": 0.09535540215835568
+      },
+      {
+        "feature": "hey",
+        "mean_abs_weight": 0.08867146806211482
+      },
+      {
+        "feature": "abt",
+        "mean_abs_weight": 0.07110675941009278
+      },
+      {
+        "feature": "posted",
+        "mean_abs_weight": 0.07079335517355495
+      },
+      {
+        "feature": "wife",
+        "mean_abs_weight": 0.07043979887966303
+      },
+      {
+        "feature": "medical",
+        "mean_abs_weight": 0.06921353937196542
+      },
+      {
+        "feature": "deserve",
+        "mean_abs_weight": 0.06543676139752702
+      },
+      {
+        "feature": "person",
+        "mean_abs_weight": 0.060652388051775405
+      },
+      {
+        "feature": "anymore",
+        "mean_abs_weight": 0.05950384805603379
+      },
+      {
+        "feature": "lmao",
+        "mean_abs_weight": 0.05490920785377755
+      },
+      {
+        "feature": "expense",
+        "mean_abs_weight": 0.05366921281768304
+      },
+      {
+        "feature": "want",
+        "mean_abs_weight": 0.05289128250192876
+      },
+      {
+        "feature": "better",
+        "mean_abs_weight": 0.05051192957214829
+      },
+      {
+        "feature": "life",
+        "mean_abs_weight": 0.048692677245843745
+      },
+      {
+        "feature": "dementia",
+        "mean_abs_weight": 0.04853777743473806
+      },
+      {
+        "feature": "surgery",
+        "mean_abs_weight": 0.047927154522666444
+      },
+      {
+        "feature": "you",
+        "mean_abs_weight": 0.0478821411653339
+      },
+      {
+        "feature": "colon",
+        "mean_abs_weight": 0.046758763250214004
+      },
+      {
+        "feature": "nothing",
+        "mean_abs_weight": 0.046289887309752066
+      }
+    ]
+  },
+  "LR (TF-IDF)": {
+    "shap": [
+      {
+        "token": "kill",
+        "mean_abs_shap": 0.2125066399972856
+      },
+      {
+        "token": "suicide",
+        "mean_abs_shap": 0.21043621680409647
+      },
+      {
+        "token": "crush",
+        "mean_abs_shap": 0.19642241863540835
+      },
+      {
+        "token": "life",
+        "mean_abs_shap": 0.1878266500213434
+      },
+      {
+        "token": "want",
+        "mean_abs_shap": 0.185341098050373
+      },
+      {
+        "token": "anymore",
+        "mean_abs_shap": 0.17689928319154563
+      },
+      {
+        "token": "end",
+        "mean_abs_shap": 0.1602622530107534
+      },
+      {
+        "token": "filler",
+        "mean_abs_shap": 0.1505623404702231
+      },
+      {
+        "token": "feel",
+        "mean_abs_shap": 0.13796543230021696
+      },
+      {
+        "token": "reddit",
+        "mean_abs_shap": 0.13204889526225608
+      },
+      {
+        "token": "killing",
+        "mean_abs_shap": 0.12508964058844005
+      },
+      {
+        "token": "talk",
+        "mean_abs_shap": 0.1211748845579696
+      },
+      {
+        "token": "ready",
+        "mean_abs_shap": 0.11971206083698126
+      },
+      {
+        "token": "tonight",
+        "mean_abs_shap": 0.10683306640986866
+      },
+      {
+        "token": "helpi",
+        "mean_abs_shap": 0.1055670388594065
+      },
+      {
+        "token": "can",
+        "mean_abs_shap": 0.10543238290491048
+      },
+      {
+        "token": "discord",
+        "mean_abs_shap": 0.09713895263398854
+      },
+      {
+        "token": "depression",
+        "mean_abs_shap": 0.09020838895189824
+      },
+      {
+        "token": "help",
+        "mean_abs_shap": 0.0891423296177609
+      },
+      {
+        "token": "school",
+        "mean_abs_shap": 0.08193357819548215
+      }
+    ],
+    "lime": [
+      {
+        "feature": "better",
+        "mean_abs_weight": 0.18268133637222414
+      },
+      {
+        "feature": "wife",
+        "mean_abs_weight": 0.10340575183755796
+      },
+      {
+        "feature": "disability",
+        "mean_abs_weight": 0.09950157843378625
+      },
+      {
+        "feature": "use",
+        "mean_abs_weight": 0.09869976828637943
+      },
+      {
+        "feature": "colon",
+        "mean_abs_weight": 0.08358932037991904
+      },
+      {
+        "feature": "deserve",
+        "mean_abs_weight": 0.06855255753357196
+      },
+      {
+        "feature": "anymore",
+        "mean_abs_weight": 0.061719795059888186
+      },
+      {
+        "feature": "year",
+        "mean_abs_weight": 0.06078035709048791
+      },
+      {
+        "feature": "hey",
+        "mean_abs_weight": 0.05142100833612913
+      },
+      {
+        "feature": "ok",
+        "mean_abs_weight": 0.04951393682931184
+      },
+      {
+        "feature": "medical",
+        "mean_abs_weight": 0.04608208825752932
+      },
+      {
+        "feature": "surgery",
+        "mean_abs_weight": 0.0447658055368711
+      },
+      {
+        "feature": "posted",
+        "mean_abs_weight": 0.04473156577500402
+      },
+      {
+        "feature": "can",
+        "mean_abs_weight": 0.04320026590524796
+      },
+      {
+        "feature": "want",
+        "mean_abs_weight": 0.04040393496977266
+      },
+      {
+        "feature": "would",
+        "mean_abs_weight": 0.038569110633794416
+      },
+      {
+        "feature": "man",
+        "mean_abs_weight": 0.033844169541529544
+      },
+      {
+        "feature": "abt",
+        "mean_abs_weight": 0.03353060352478788
+      },
+      {
+        "feature": "lost",
+        "mean_abs_weight": 0.03336895972144029
+      },
+      {
+        "feature": "keep",
+        "mean_abs_weight": 0.032746122882433726
+      }
+    ]
+  },
+  "Simple RNN": {
+    "shap": [
+      {
+        "token": "side",
+        "mean_abs_shap": 0.2577135920841283
+      },
+      {
+        "token": "dungeon  ",
+        "mean_abs_shap": 0.24768512481107163
+      },
+      {
+        "token": "abscess ",
+        "mean_abs_shap": 0.2255834593883939
+      },
+      {
+        "token": "lol ",
+        "mean_abs_shap": 0.21230153846912658
+      },
+      {
+        "token": "fans ",
+        "mean_abs_shap": 0.21230150787335522
+      },
+      {
+        "token": "everyday  ",
+        "mean_abs_shap": 0.1937165319632809
+      },
+      {
+        "token": "help",
+        "mean_abs_shap": 0.18444245866205744
+      },
+      {
+        "token": "do",
+        "mean_abs_shap": 0.18439544265692115
+      },
+      {
+        "token": "cool ",
+        "mean_abs_shap": 0.17691794810992367
+      },
+      {
+        "token": "noticing ",
+        "mean_abs_shap": 0.1762058027751866
+      },
+      {
+        "token": "here",
+        "mean_abs_shap": 0.17572926255761095
+      },
+      {
+        "token": "commenting  ",
+        "mean_abs_shap": 0.17262904955582187
+      },
+      {
+        "token": "posting ",
+        "mean_abs_shap": 0.15337132346497748
+      },
+      {
+        "token": "could  ",
+        "mean_abs_shap": 0.14098640275984758
+      },
+      {
+        "token": "mother ",
+        "mean_abs_shap": 0.13784149533294268
+      },
+      {
+        "token": "kinda ",
+        "mean_abs_shap": 0.13610480910070022
+      },
+      {
+        "token": "plenty ",
+        "mean_abs_shap": 0.13516603772848412
+      },
+      {
+        "token": "life",
+        "mean_abs_shap": 0.12851737181972517
+      },
+      {
+        "token": "finally",
+        "mean_abs_shap": 0.11628547192220917
+      },
+      {
+        "token": "mean  ",
+        "mean_abs_shap": 0.11453133902573341
+      }
+    ],
+    "lime": [
+      {
+        "feature": "me",
+        "mean_abs_weight": 0.16933139403291833
+      },
+      {
+        "feature": "anybody",
+        "mean_abs_weight": 0.1274880579892918
+      },
+      {
+        "feature": "said",
+        "mean_abs_weight": 0.10983137537575478
+      },
+      {
+        "feature": "im",
+        "mean_abs_weight": 0.09179052128236645
+      },
+      {
+        "feature": "better",
+        "mean_abs_weight": 0.0820496772777553
+      },
+      {
+        "feature": "lonely",
+        "mean_abs_weight": 0.06535614581748118
+      },
+      {
+        "feature": "dm",
+        "mean_abs_weight": 0.06373811923625365
+      },
+      {
+        "feature": "she",
+        "mean_abs_weight": 0.05781233317203053
+      },
+      {
+        "feature": "than",
+        "mean_abs_weight": 0.0539192711772988
+      },
+      {
+        "feature": "two",
+        "mean_abs_weight": 0.04372455684893659
+      },
+      {
+        "feature": "and",
+        "mean_abs_weight": 0.04285930747571364
+      },
+      {
+        "feature": "be",
+        "mean_abs_weight": 0.03192393740628057
+      },
+      {
+        "feature": "cry",
+        "mean_abs_weight": 0.023115879033082792
+      },
+      {
+        "feature": "you",
+        "mean_abs_weight": 0.021792591534822853
+      },
+      {
+        "feature": "all",
+        "mean_abs_weight": 0.0210409849778824
+      },
+      {
+        "feature": "it",
+        "mean_abs_weight": 0.02037980240166279
+      },
+      {
+        "feature": "saying",
+        "mean_abs_weight": 0.019832014962544414
+      },
+      {
+        "feature": "to",
+        "mean_abs_weight": 0.019507265353562144
+      },
+      {
+        "feature": "of",
+        "mean_abs_weight": 0.01729512058533367
+      },
+      {
+        "feature": "want",
+        "mean_abs_weight": 0.014673297760108006
+      }
+    ]
+  },
+  "LSTM": {
+    "shap": [
+      {
+        "token": "pills  ",
+        "mean_abs_shap": 0.37018819171481016
+      },
+      {
+        "token": "hotlines  ",
+        "mean_abs_shap": 0.3380978518747333
+      },
+      {
+        "token": "crush ",
+        "mean_abs_shap": 0.3174919198666378
+      },
+      {
+        "token": "smash ",
+        "mean_abs_shap": 0.2120041832593935
+      },
+      {
+        "token": "someonei ",
+        "mean_abs_shap": 0.15945158684836766
+      },
+      {
+        "token": "play ",
+        "mean_abs_shap": 0.14760509363067298
+      },
+      {
+        "token": "tonight  ",
+        "mean_abs_shap": 0.13288251236354037
+      },
+      {
+        "token": "kiss  ",
+        "mean_abs_shap": 0.1298831946682185
+      },
+      {
+        "token": "preferably ",
+        "mean_abs_shap": 0.12418664283337078
+      },
+      {
+        "token": "escape ",
+        "mean_abs_shap": 0.11673058614255047
+      },
+      {
+        "token": "comments ",
+        "mean_abs_shap": 0.08489753359605559
+      },
+      {
+        "token": "online ",
+        "mean_abs_shap": 0.0845911318086627
+      },
+      {
+        "token": "moon ",
+        "mean_abs_shap": 0.0755417044274509
+      },
+      {
+        "token": "award  ",
+        "mean_abs_shap": 0.07435030269358928
+      },
+      {
+        "token": "dream ",
+        "mean_abs_shap": 0.06233060539199029
+      },
+      {
+        "token": "fag  ",
+        "mean_abs_shap": 0.06093686611832847
+      },
+      {
+        "token": "die ",
+        "mean_abs_shap": 0.060163732367546484
+      },
+      {
+        "token": "pretty",
+        "mean_abs_shap": 0.05860024830326438
+      },
+      {
+        "token": "licking ",
+        "mean_abs_shap": 0.05554298455974767
+      },
+      {
+        "token": "id ",
+        "mean_abs_shap": 0.05044305191508361
+      }
+    ],
+    "lime": [
+      {
+        "feature": "wife",
+        "mean_abs_weight": 0.21070866610868164
+      },
+      {
+        "feature": "better",
+        "mean_abs_weight": 0.18201337597384445
+      },
+      {
+        "feature": "don",
+        "mean_abs_weight": 0.1611996798641349
+      },
+      {
+        "feature": "years",
+        "mean_abs_weight": 0.11882067978002117
+      },
+      {
+        "feature": "man",
+        "mean_abs_weight": 0.11491590106404218
+      },
+      {
+        "feature": "than",
+        "mean_abs_weight": 0.10453300742231576
+      },
+      {
+        "feature": "disabilities",
+        "mean_abs_weight": 0.09426587964025937
+      },
+      {
+        "feature": "mild",
+        "mean_abs_weight": 0.08990825834112534
+      },
+      {
+        "feature": "can",
+        "mean_abs_weight": 0.08691836765798182
+      },
+      {
+        "feature": "life",
+        "mean_abs_weight": 0.07670273322871847
+      },
+      {
+        "feature": "surgery",
+        "mean_abs_weight": 0.06794057102250944
+      },
+      {
+        "feature": "deserve",
+        "mean_abs_weight": 0.06601845027798989
+      },
+      {
+        "feature": "it",
+        "mean_abs_weight": 0.06598529368904586
+      },
+      {
+        "feature": "through",
+        "mean_abs_weight": 0.06126588599934388
+      },
+      {
+        "feature": "and",
+        "mean_abs_weight": 0.06118819154473104
+      },
+      {
+        "feature": "dementia",
+        "mean_abs_weight": 0.06014482316545271
+      },
+      {
+        "feature": "anymore",
+        "mean_abs_weight": 0.058287577416915745
+      },
+      {
+        "feature": "medical",
+        "mean_abs_weight": 0.05795809664692888
+      },
+      {
+        "feature": "marriage",
+        "mean_abs_weight": 0.057868812954980677
+      },
+      {
+        "feature": "14",
+        "mean_abs_weight": 0.05724084893001677
+      }
+    ]
+  },
+  "BiLSTM": {
+    "shap": [
+      {
+        "token": "crush ",
+        "mean_abs_shap": 0.31599261440173315
+      },
+      {
+        "token": "moon ",
+        "mean_abs_shap": 0.2180113773792982
+      },
+      {
+        "token": "play ",
+        "mean_abs_shap": 0.18003779481986876
+      },
+      {
+        "token": "hotlines  ",
+        "mean_abs_shap": 0.1505187238732773
+      },
+      {
+        "token": "smash ",
+        "mean_abs_shap": 0.14777210836189908
+      },
+      {
+        "token": "tonight  ",
+        "mean_abs_shap": 0.13660949885626852
+      },
+      {
+        "token": "escape ",
+        "mean_abs_shap": 0.13283000189690733
+      },
+      {
+        "token": "someonei ",
+        "mean_abs_shap": 0.12179740859234114
+      },
+      {
+        "token": "solely ",
+        "mean_abs_shap": 0.10190823424960718
+      },
+      {
+        "token": "pls",
+        "mean_abs_shap": 0.09424002394080162
+      },
+      {
+        "token": "live",
+        "mean_abs_shap": 0.09364979564255024
+      },
+      {
+        "token": "licking ",
+        "mean_abs_shap": 0.08660912334120699
+      },
+      {
+        "token": "tonight ",
+        "mean_abs_shap": 0.08581794201433869
+      },
+      {
+        "token": "kiss  ",
+        "mean_abs_shap": 0.08523630844429135
+      },
+      {
+        "token": "abandoned ",
+        "mean_abs_shap": 0.07935699157704443
+      },
+      {
+        "token": "award  ",
+        "mean_abs_shap": 0.0759372737336283
+      },
+      {
+        "token": "pretty",
+        "mean_abs_shap": 0.0718210693448782
+      },
+      {
+        "token": "comments ",
+        "mean_abs_shap": 0.06428993313428871
+      },
+      {
+        "token": "leg ",
+        "mean_abs_shap": 0.059836239051653736
+      },
+      {
+        "token": "boner ",
+        "mean_abs_shap": 0.05102143112242549
+      }
+    ],
+    "lime": [
+      {
+        "feature": "wife",
+        "mean_abs_weight": 0.17183460795052602
+      },
+      {
+        "feature": "years",
+        "mean_abs_weight": 0.14287086176962993
+      },
+      {
+        "feature": "disabilities",
+        "mean_abs_weight": 0.10916818660051379
+      },
+      {
+        "feature": "life",
+        "mean_abs_weight": 0.10393484768170193
+      },
+      {
+        "feature": "man",
+        "mean_abs_weight": 0.09774684061431038
+      },
+      {
+        "feature": "better",
+        "mean_abs_weight": 0.08972199223928413
+      },
+      {
+        "feature": "don",
+        "mean_abs_weight": 0.08435132736442909
+      },
+      {
+        "feature": "year",
+        "mean_abs_weight": 0.08013313645104964
+      },
+      {
+        "feature": "deserve",
+        "mean_abs_weight": 0.07529543995282671
+      },
+      {
+        "feature": "than",
+        "mean_abs_weight": 0.07505040175117528
+      },
+      {
+        "feature": "anymore",
+        "mean_abs_weight": 0.06834014260656619
+      },
+      {
+        "feature": "she",
+        "mean_abs_weight": 0.06437189901982775
+      },
+      {
+        "feature": "can",
+        "mean_abs_weight": 0.06076804478667266
+      },
+      {
+        "feature": "herself",
+        "mean_abs_weight": 0.057902195114330146
+      },
+      {
+        "feature": "through",
+        "mean_abs_weight": 0.05708539449107914
+      },
+      {
+        "feature": "is",
+        "mean_abs_weight": 0.05472230793429461
+      },
+      {
+        "feature": "t",
+        "mean_abs_weight": 0.05179527944461684
+      },
+      {
+        "feature": "as",
+        "mean_abs_weight": 0.05080525606101759
+      },
+      {
+        "feature": "thirty",
+        "mean_abs_weight": 0.050460805094344106
+      },
+      {
+        "feature": "to",
+        "mean_abs_weight": 0.05000618773411667
+      }
+    ]
+  },
+  "Attention BiLSTM": {
+    "shap": [
+      {
+        "token": "hotlines  ",
+        "mean_abs_shap": 0.33435659552741415
+      },
+      {
+        "token": "someonei ",
+        "mean_abs_shap": 0.30830626212084644
+      },
+      {
+        "token": "crush ",
+        "mean_abs_shap": 0.17613836796698296
+      },
+      {
+        "token": "hotline ",
+        "mean_abs_shap": 0.17099811956013017
+      },
+      {
+        "token": "tonight  ",
+        "mean_abs_shap": 0.16362932160387544
+      },
+      {
+        "token": "fag  ",
+        "mean_abs_shap": 0.1607260796570872
+      },
+      {
+        "token": "online ",
+        "mean_abs_shap": 0.14906801586222285
+      },
+      {
+        "token": "play ",
+        "mean_abs_shap": 0.11656516794412507
+      },
+      {
+        "token": "understands ",
+        "mean_abs_shap": 0.10783750805692327
+      },
+      {
+        "token": "recommend ",
+        "mean_abs_shap": 0.09238631506601419
+      },
+      {
+        "token": "songs   ",
+        "mean_abs_shap": 0.09103257937187498
+      },
+      {
+        "token": "escape ",
+        "mean_abs_shap": 0.09036844363128624
+      },
+      {
+        "token": "hates ",
+        "mean_abs_shap": 0.08897842183484914
+      },
+      {
+        "token": "u ",
+        "mean_abs_shap": 0.08629849733432252
+      },
+      {
+        "token": "sounded ",
+        "mean_abs_shap": 0.0822406898069479
+      },
+      {
+        "token": "killing ",
+        "mean_abs_shap": 0.08121624083258622
+      },
+      {
+        "token": "pills  ",
+        "mean_abs_shap": 0.07965812883462306
+      },
+      {
+        "token": "outright ",
+        "mean_abs_shap": 0.07889228092919238
+      },
+      {
+        "token": "live",
+        "mean_abs_shap": 0.07015061410911466
+      },
+      {
+        "token": "solely ",
+        "mean_abs_shap": 0.06948679842201456
+      }
+    ],
+    "lime": [
+      {
+        "feature": "wife",
+        "mean_abs_weight": 0.17935924626928293
+      },
+      {
+        "feature": "years",
+        "mean_abs_weight": 0.13625729886399815
+      },
+      {
+        "feature": "disabilities",
+        "mean_abs_weight": 0.13295828848519184
+      },
+      {
+        "feature": "deserve",
+        "mean_abs_weight": 0.116343801389645
+      },
+      {
+        "feature": "and",
+        "mean_abs_weight": 0.0990799813174448
+      },
+      {
+        "feature": "destitute",
+        "mean_abs_weight": 0.09056535574997071
+      },
+      {
+        "feature": "son",
+        "mean_abs_weight": 0.08847023674726058
+      },
+      {
+        "feature": "life",
+        "mean_abs_weight": 0.0858729102620771
+      },
+      {
+        "feature": "mild",
+        "mean_abs_weight": 0.07788900710729905
+      },
+      {
+        "feature": "man",
+        "mean_abs_weight": 0.07495960814054471
+      },
+      {
+        "feature": "leave",
+        "mean_abs_weight": 0.06696057943634715
+      },
+      {
+        "feature": "she",
+        "mean_abs_weight": 0.06563824782423802
+      },
+      {
+        "feature": "colon",
+        "mean_abs_weight": 0.06561380008152116
+      },
+      {
+        "feature": "five",
+        "mean_abs_weight": 0.06184778295832897
+      },
+      {
+        "feature": "marriage",
+        "mean_abs_weight": 0.06125021319068848
+      },
+      {
+        "feature": "cry",
+        "mean_abs_weight": 0.05947361150090641
+      },
+      {
+        "feature": "14",
+        "mean_abs_weight": 0.05861727345158682
+      },
+      {
+        "feature": "use",
+        "mean_abs_weight": 0.05100516663592371
+      },
+      {
+        "feature": "my",
+        "mean_abs_weight": 0.04623261336081113
+      },
+      {
+        "feature": "as",
+        "mean_abs_weight": 0.04400202289843932
+      }
+    ]
+  },
+  "DistilRoBERTa+LoRA": {
+    "shap": [
+      {
+        "token": "dyingfirst ",
+        "mean_abs_shap": 0.8000614799926345
+      },
+      {
+        "token": "hey ",
+        "mean_abs_shap": 0.337193678198007
+      },
+      {
+        "token": "homosexuality ",
+        "mean_abs_shap": 0.3128025914594025
+      },
+      {
+        "token": "suicidal ",
+        "mean_abs_shap": 0.23919629055836034
+      },
+      {
+        "token": "says ",
+        "mean_abs_shap": 0.1920441846414894
+      },
+      {
+        "token": "whilethings ",
+        "mean_abs_shap": 0.1918109218259276
+      },
+      {
+        "token": "hi ",
+        "mean_abs_shap": 0.17983427946024472
+      },
+      {
+        "token": "affairs ",
+        "mean_abs_shap": 0.1736721975445396
+      },
+      {
+        "token": "dog ",
+        "mean_abs_shap": 0.17134394838718608
+      },
+      {
+        "token": "fag  ",
+        "mean_abs_shap": 0.1539652004576387
+      },
+      {
+        "token": "start  ",
+        "mean_abs_shap": 0.15011438425130313
+      },
+      {
+        "token": "hates ",
+        "mean_abs_shap": 0.12554098960144697
+      },
+      {
+        "token": "doanload ",
+        "mean_abs_shap": 0.124688157583854
+      },
+      {
+        "token": "moon ",
+        "mean_abs_shap": 0.12273101392202079
+      },
+      {
+        "token": "2nd ",
+        "mean_abs_shap": 0.12073473715119892
+      },
+      {
+        "token": "someonei ",
+        "mean_abs_shap": 0.11852997783262385
+      },
+      {
+        "token": "live",
+        "mean_abs_shap": 0.1176186646904061
+      },
+      {
+        "token": "inches ",
+        "mean_abs_shap": 0.11506728857962623
+      },
+      {
+        "token": "smash ",
+        "mean_abs_shap": 0.10777162794211226
+      },
+      {
+        "token": "academic ",
+        "mean_abs_shap": 0.10671527054660852
+      }
+    ],
+    "lime": [
+      {
+        "feature": "fcpx",
+        "mean_abs_weight": 0.23569312167294706
+      },
+      {
+        "feature": "premiere",
+        "mean_abs_weight": 0.19422585488598346
+      },
+      {
+        "feature": "hhhhhh",
+        "mean_abs_weight": 0.08466921394868178
+      },
+      {
+        "feature": "anybody",
+        "mean_abs_weight": 0.08466252501795082
+      },
+      {
+        "feature": "like",
+        "mean_abs_weight": 0.07212636966302251
+      },
+      {
+        "feature": "chill",
+        "mean_abs_weight": 0.05397304791891501
+      },
+      {
+        "feature": "than",
+        "mean_abs_weight": 0.05241824705096547
+      },
+      {
+        "feature": "is",
+        "mean_abs_weight": 0.046947362192641624
+      },
+      {
+        "feature": "friend",
+        "mean_abs_weight": 0.044570369910790296
+      },
+      {
+        "feature": "better",
+        "mean_abs_weight": 0.04118393631622483
+      },
+      {
+        "feature": "im",
+        "mean_abs_weight": 0.03442281892427714
+      },
+      {
+        "feature": "abt",
+        "mean_abs_weight": 0.03394300567148673
+      },
+      {
+        "feature": "she",
+        "mean_abs_weight": 0.030470212881497507
+      },
+      {
+        "feature": "blood",
+        "mean_abs_weight": 0.02980562212216382
+      },
+      {
+        "feature": "hey",
+        "mean_abs_weight": 0.028151479550653436
+      },
+      {
+        "feature": "t",
+        "mean_abs_weight": 0.025864595119657795
+      },
+      {
+        "feature": "battling",
+        "mean_abs_weight": 0.02581189843935065
+      },
+      {
+        "feature": "two",
+        "mean_abs_weight": 0.025720373542128975
+      },
+      {
+        "feature": "in",
+        "mean_abs_weight": 0.02561165685673928
+      },
+      {
+        "feature": "but",
+        "mean_abs_weight": 0.025449183706908136
+      }
+    ]
+  }
+}

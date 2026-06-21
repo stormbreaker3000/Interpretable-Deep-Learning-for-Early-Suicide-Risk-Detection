@@ -1,0 +1,120 @@
+# ── Python artefacts ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ── Credentials & secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+kaggle.json
+
+# ── OS artefacts ──────────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ── Editors & IDEs ────────────────────────────────────────────────────────────
+# VS Code
+.vscode/
+**/.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, IntelliJ, etc.)
+.idea/
+**/.idea/
+*.iml
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+\#*\#
+.\#*
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ── Model weights & large binaries ───────────────────────────────────────────
+# Pickle / joblib
+*.pkl
+
+# PyTorch
+*.pt
+*.pth
+
+# TensorFlow / Keras
+*.h5
+*.keras
+*.tflite
+*.pb
+
+# HuggingFace / safetensors
+*.safetensors
+*.bin
+
+# ── Model checkpoint directories ─────────────────────────────────────────────
+Models/AttBiLSTM_model.keras
+Models/BILSTM_model.h5
+Models/BILSTM_model.keras
+Models/BoW_LR_model.pkl
+Models/BoW_Vectorizer_model.pkl
+Models/LSTM_model.keras
+Models/RNN_model.keras
+Models/RNN_model.pkl
+Models/Tokenizer_model.json
+Models/distilroberta_lora_final/
+Models/lora_sweep/
+peft_transformer_results/
+transformer_results/
+
+# ── Experiment results ───────────────────────────────────────────────────────
+# Ignore all timestamped runs; keep only the canonical paper results.
+results/*
+!results/paper/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+cli_logs.txt
+logs/
+
+# ── Dataset (large CSV — download via script) ─────────────────────────────────
+Dataset/*.csv
+Dataset/*.zip
+
+# ── Paper / LaTeX (kept local only) ──────────────────────────────────────────
+*.tex
+*.tek
+*.pdf
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+CODEBASE_SUMMARY.md

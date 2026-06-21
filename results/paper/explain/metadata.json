@@ -1,0 +1,7 @@
+{
+  "mode": "compare_all",
+  "n_shap_samples": 50,
+  "n_lime_samples": 5,
+  "top_features": 20,
+  "n_compare_features": 15
+}
